@@ -1,0 +1,72 @@
+
+header.header#header
+    .top-header.menu--fixed
+        .header__container
+            .row.align-items-center
+                .col-6.col-lg-1.text-left.d-lg-none.mr-auto.d-block.mobile__menu
+                    .nav-trigger#nav-trigger
+                        span.line
+                        span.line
+                        span.line
+                    nav(id="nav" class="out")
+                        ul.nav__list
+                            li
+                                a(href="#repairs").nav-label Ремонт
+                            li
+                                a(href="#shop").nav-label Магазин
+                            li
+                                a(href="https://pool.oneboost.ru/").nav-label Пул
+                            li
+                                a(href="#firmware").nav-label Прошивка
+                            li
+                                a(href="#cod").nav-label ЦОД под ключ
+                            li
+                                a(href="#contacts").nav-label Контакты
+                                         
+                .col-6.col-lg-1.text-right.text-lg-left
+                    a.header__logo(href="/")
+                        img(src="img/logo.png", alt="logo")
+                
+                .col-lg-auto.d-none.d-xl-block.text-left
+                    a(href="#").header__region.ml-4 Регион: Москва
+                .col-lg.d-none.d-lg-block
+                    nav.nav__menu
+                        ul.header__list
+                            li.header__list_item
+                                a.header__list_item_link(href="#repairs") Ремонт
+                            li.header__list_item
+                                a.header__list_item_link(href="#shop") Магазин
+                            li.header__list_item
+                                a.header__list_item_link(href="https://pool.oneboost.ru/") Пул
+                            li.header__list_item
+                                a.header__list_item_link(href="#firmware") Прошивка
+                            li.header__list_item
+                                a.header__list_item_link(href="#cod") ЦОД под ключ
+                            li.header__list_item
+                                a.header__list_item_link(href="#contacts") Контакты
+                .col-lg-auto.d-none.d-lg-block
+                    button.btn.header__btn Обратный звонок
+    .header__container
+        .row.position-relative
+            .col-12.text-center.mt-4
+                object.img-fluid(type="image/svg+xml" data="img/illustration.svg")
+                    img.img-fluid(src="img/illustration.svg", alt="illustration")
+                h1.header__title Майнинг-компания широкого спектра
+                p.header__subtitle Произведем ремонт хеш-платы за 1 день. <br> У нас вы можете получить обслуживание высшего качества и исправить все дефекты вашей майнинг фермы.
+                button.btn.header__offer_btn Оставить заявку
+            .col-12.header__social.d-lg-none.d-flex.justify-content-center
+                    a.header__social_link.m-3(href="#") 
+                        i(class="fab fa-instagram")
+                    a.header__social_link.m-3(href="#")
+                        i(class="fab fa-whatsapp")
+                    a.header__social_link.m-3(href="#")
+                        i(class="fab fa-telegram-plane")
+            .col-auto.position-absolute.header__social.d-none.d-lg-block
+                    a.header__social_link(href="#") 
+                        i(class="fab fa-instagram")
+                    a.header__social_link(href="#")
+                        i(class="fab fa-whatsapp")
+                    a.header__social_link(href="#")
+                        i(class="fab fa-telegram-plane")
+  
+                            

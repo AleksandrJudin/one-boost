@@ -1,0 +1,106 @@
+@import "vars";
+
+@media screen and (max-width: 1332px) {
+    .header__list {
+        display: none;
+    }
+    .header__container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.header__logo img {
+        max-width: 50%;
+    }
+    .header__title {
+        margin-top: 15px;
+    }
+    .header__title {
+        font-size: 32px;
+    }
+    .repairs {
+        padding: 0;
+    }
+    .repairs__title {
+        font-size: 20px;
+    }
+    .repairs__info {
+        display: none;
+    }
+    .repairs__item_title {
+        font-size: 18px;
+    }
+    .repairs__text {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+    .shop .tabs__caption {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .shop .tabs__caption li {
+        text-align: center;
+        line-height: 15px;
+        height:50px;
+        padding-top: 10px;
+    }
+    .shop .tabs__caption li:not(:last-child) {
+        padding-top: 15px;
+    }
+    .tabs__content_item img[src="img/product.jpg"] {
+        max-width: 50%;
+        padding-right: 15px;
+    }
+    .shop .tabs__content_item {
+        padding: 10px;
+    
+    }
+    .shop .product__info span {
+        font-size: 14px;
+    }
+    .cod__text {
+        width: auto;
+        font-size: 13px;
+        margin: 10px auto 20px auto;
+    }
+    .firmware__btn {
+        width: auto;
+        padding: 10px 30px;
+    }
+    .cod__title {
+        font-size: 18px;
+    }
+    .cod {
+        padding: 30px 0;
+    }
+    .footer__social span {
+        font-size: 12px;
+    }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.header__subtitle {
+        width: auto;
+    }
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px)  {
+
+}
+
+
+
+
+
+
+/**/
